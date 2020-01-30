@@ -1,2 +1,18 @@
-# sockets-server
-PROYECT
+# Sockets-Server
+
+
+--→ Reconstruir node_modules ←--
+...
+npm install
+...
+
+--→ Generar el Dist ←--
+...
+tsc -w
+...
+
+--→ levantar servidor ←--
+...
+nodemon dist/
+node dist/
+...
