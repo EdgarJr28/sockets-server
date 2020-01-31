@@ -35,8 +35,8 @@ export default class Server {
         })
     }
 
-    start( callback: any ){
-        this.httpServer.listen( this.port, callback );
+    start( callback: Function ){
+        this.httpServer.listen( this.port, callback() );
     }
 
 }
