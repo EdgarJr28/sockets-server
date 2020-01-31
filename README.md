@@ -1,18 +1,23 @@
-# Sockets-Server
 
 
---→ Reconstruir node_modules ←--
-...
+# Socket-Server
+
+
+Reconstruir módulos de Node
+```
 npm install
-...
+```
 
---→ Generar el Dist ←--
-...
+Generar el DIST
+```
 tsc -w
-...
+```
 
---→ levantar servidor ←--
-...
+Levantar servidor, cualquiera de estos dos comandos
+```
 nodemon dist/
 node dist/
-...
+```
+
+
+
