@@ -21,7 +21,7 @@ class UsuariosLista {
     }
     // Obtener Lista Usuarios
     getLista() {
-        return this.lista;
+        return this.lista.filter(usuario => usuario.nombre !== 'sin-nombre');
     }
     getUsuario(id) {
         return this.lista.find(usuario => usuario.id === id);
